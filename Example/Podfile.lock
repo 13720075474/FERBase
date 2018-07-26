@@ -1,0 +1,16 @@
+PODS:
+  - FERBase (0.1.0)
+
+DEPENDENCIES:
+  - FERBase (from `../`)
+
+EXTERNAL SOURCES:
+  FERBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FERBase: 02e5c73fd3e1ad9de26759881a3c842bd67cf169
+
+PODFILE CHECKSUM: a1dfad3000ea2c26dfe034fc2fc153e769483fe4
+
+COCOAPODS: 1.5.0

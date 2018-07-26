@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		09CFD1E35FCB9FD6BBF7150E /* Pods-FERBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FERBase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FERBase_Tests/Pods-FERBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D8E6C08663ED835696A67F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D8E6C08663ED835696A67F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FERBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FERBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,11 +58,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AD1ED98AFAF94DAC157889C /* FERBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FERBase.podspec; path = ../FERBase.podspec; sourceTree = "<group>"; };
+		6AD1ED98AFAF94DAC157889C /* FERBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FERBase.podspec; path = ../FERBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75BA7AD49D9FCA6804AE16C7 /* Pods-FERBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FERBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FERBase_Tests/Pods-FERBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		904F4776E89188012C74AB26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		904F4776E89188012C74AB26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		94D4366AFD9D1A991B49A14E /* Pods-FERBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FERBase_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B13E84B0AF8728531C0D5236 /* Pods_FERBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CCF496AF1F7F61BF614338 /* Pods_FERBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };

@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285400B7E5620A4230674EC2B1DF432D /* Pods-FERBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A01ADB88934224E65A6D104101E03 /* Pods-FERBase_Tests-dummy.m */; };
+		3A836F19F2064EC1212E78C59374A523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55BE56C5B19F68D641373BA64BEAA065 /* Pods-FERBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4652AC4577AED29F5B31DA5DBA03799A /* Pods-FERBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590F49462AAE339FA6565D603B8AA94E /* Pods-FERBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD5AEEA9407D53CCBBEC72BC5083654 /* Pods-FERBase_Example-dummy.m */; };
+		5F5A9A53FB296EE1CE564494BE29BFFF /* Pods-FERBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2251A6FBD436A4536B1F8F0EB9A615 /* Pods-FERBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6103A2B24ACEBE641ECD51039C1072F8 /* FERBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B8127F4BACD7F3BA83A8B99B6031F /* FERBase-dummy.m */; };
+		6A47ECF81115FE62DFE48EA9D5641BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8BE33070C5F7897A152AAFD2C899E9A /* FERBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0981083FB8C6920F4CCF848BD3120701 /* FERBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C675FFE1B771985FDCA3F4C0813757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		413662D68C1352570FE7FB1CEB34B300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E3898FB0FC165B7A9F28064353993A;
+			remoteInfo = "Pods-FERBase_Example";
+		};
+		B1CB01DB6932584DB37C50A3B25C754D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6154435F4450CA2178DFD6DB292F00F7;
+			remoteInfo = FERBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0981083FB8C6920F4CCF848BD3120701 /* FERBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-umbrella.h"; sourceTree = "<group>"; };
+		09CF6258BF785538BC35DFD708D12548 /* Pods_FERBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7CF095C4BAD60159C11CC21AA5BA80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		13AAFBBDD7FE428147DA92703127CCAA /* Pods-FERBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FERBase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2182966A744EC417B74268DD4D6B86B1 /* FERBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FERBase.xcconfig; sourceTree = "<group>"; };
+		2FCDA110C11DA96BE93171DA2A823B5B /* Pods-FERBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FERBase_Tests.modulemap"; sourceTree = "<group>"; };
+		3ABE13597705C342196E2E11CF7D0735 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BC01D4452B76576EF3471E63B3B9EE /* FERBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FERBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4652AC4577AED29F5B31DA5DBA03799A /* Pods-FERBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FERBase_Example-umbrella.h"; sourceTree = "<group>"; };
+		496ED127E0C790B9D5A19462844CC9F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6C816D34ABFE2AEF768B182B0937BB /* Pods-FERBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FERBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		56F98BB000639F0441B66EDB06653AB2 /* Pods-FERBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CD96AC7E4EE674790AC9F8C8DFF5268 /* Pods_FERBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		614DF3645C81379161D954F1D3E8F85F /* Pods-FERBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FERBase_Example.modulemap"; sourceTree = "<group>"; };
+		64010B2EF067BA43EEB557D4D72A449E /* Pods-FERBase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FERBase_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EA91F1604A37882EF524B81E1685FD5 /* Pods-FERBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		75853EEA14D0530BA0954A2E49E76693 /* FERBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-prefix.pch"; sourceTree = "<group>"; };
+		8687D10BD0A63D0D455053F2C59CC742 /* Pods-FERBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		875B8127F4BACD7F3BA83A8B99B6031F /* FERBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FERBase-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6D09DE21423C92B1FF93AC444679E3 /* Pods-FERBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FERBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A39A01ADB88934224E65A6D104101E03 /* Pods-FERBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FERBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		A73CAAA07037642B47BD888ABA555454 /* Pods-FERBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACB0BD5E7369D2228D925B8C7784211D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDD5AEEA9407D53CCBBEC72BC5083654 /* Pods-FERBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FERBase_Example-dummy.m"; sourceTree = "<group>"; };
+		BE29582AE3B30A34931D129B3829A661 /* Pods-FERBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B3B3170BBBB233ED44C9E40BEABE7C /* Pods-FERBase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FERBase_Example-resources.sh"; sourceTree = "<group>"; };
+		D54D71533C9AB4632F8F5036EE09780E /* Pods-FERBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB2251A6FBD436A4536B1F8F0EB9A615 /* Pods-FERBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FERBase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EA52871D0C6465D06717E4FD4B88B032 /* Pods-FERBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FERBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAC562DAFAF2C7AEA529ED0273DC28AB /* FERBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FERBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6E0322BC01C8F580DB6D5DFE363A21 /* FERBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FERBase.modulemap; sourceTree = "<group>"; };
+		F8C487F830B6D3A59D58A9A0A422AF73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D249ABB600ACDC31036D71AB9417088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A836F19F2064EC1212E78C59374A523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE31A73329664BE2F3DE338ABCB2FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C675FFE1B771985FDCA3F4C0813757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9379294895EA23C6AAAC434228C6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A47ECF81115FE62DFE48EA9D5641BE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E115C06DEFB1A67A3DBE72ACE192E56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E0322BC01C8F580DB6D5DFE363A21 /* FERBase.modulemap */,
+				2182966A744EC417B74268DD4D6B86B1 /* FERBase.xcconfig */,
+				875B8127F4BACD7F3BA83A8B99B6031F /* FERBase-dummy.m */,
+				75853EEA14D0530BA0954A2E49E76693 /* FERBase-prefix.pch */,
+				0981083FB8C6920F4CCF848BD3120701 /* FERBase-umbrella.h */,
+				3ABE13597705C342196E2E11CF7D0735 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FERBase";
+			sourceTree = "<group>";
+		};
+		3D870096025970D52B8CC6FAE4395946 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFED9E59930617011D96D4276FA536 /* FERBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6529866818D08BFEC203DBC4DB3F405A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43BC01D4452B76576EF3471E63B3B9EE /* FERBase.podspec */,
+				0C7CF095C4BAD60159C11CC21AA5BA80 /* LICENSE */,
+				ACB0BD5E7369D2228D925B8C7784211D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A7833A72109AD20006E2B24 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6A7833A82109AD20006E2B24 /* Category */,
+				6A7833AB2109AD20006E2B24 /* Utils */,
+				6A7833AC2109AD20006E2B24 /* Controller */,
+				6A7833AD2109AD20006E2B24 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6A7833A82109AD20006E2B24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6A7833A92109AD20006E2B24 /* Toast */,
+				6A7833AA2109AD20006E2B24 /* UIImage+ColorAtPixel */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6A7833A92109AD20006E2B24 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		6A7833AA2109AD20006E2B24 /* UIImage+ColorAtPixel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIImage+ColorAtPixel";
+			sourceTree = "<group>";
+		};
+		6A7833AB2109AD20006E2B24 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6A7833AC2109AD20006E2B24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A7833AD2109AD20006E2B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70F75E298A150BB6708E8F2DFEBFBD7B /* Pods-FERBase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C487F830B6D3A59D58A9A0A422AF73 /* Info.plist */,
+				2FCDA110C11DA96BE93171DA2A823B5B /* Pods-FERBase_Tests.modulemap */,
+				EA52871D0C6465D06717E4FD4B88B032 /* Pods-FERBase_Tests-acknowledgements.markdown */,
+				8687D10BD0A63D0D455053F2C59CC742 /* Pods-FERBase_Tests-acknowledgements.plist */,
+				A39A01ADB88934224E65A6D104101E03 /* Pods-FERBase_Tests-dummy.m */,
+				4F6C816D34ABFE2AEF768B182B0937BB /* Pods-FERBase_Tests-frameworks.sh */,
+				64010B2EF067BA43EEB557D4D72A449E /* Pods-FERBase_Tests-resources.sh */,
+				DB2251A6FBD436A4536B1F8F0EB9A615 /* Pods-FERBase_Tests-umbrella.h */,
+				6EA91F1604A37882EF524B81E1685FD5 /* Pods-FERBase_Tests.debug.xcconfig */,
+				D54D71533C9AB4632F8F5036EE09780E /* Pods-FERBase_Tests.release.xcconfig */,
+			);
+			name = "Pods-FERBase_Tests";
+			path = "Target Support Files/Pods-FERBase_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3D870096025970D52B8CC6FAE4395946 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D2B83530980D7FD371C4CE4DD945BE21 /* Products */,
+				E5A8AFE0B6A4EF5A1ADE70F7BD55CCAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B83530980D7FD371C4CE4DD945BE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC562DAFAF2C7AEA529ED0273DC28AB /* FERBase.framework */,
+				09CF6258BF785538BC35DFD708D12548 /* Pods_FERBase_Example.framework */,
+				5CD96AC7E4EE674790AC9F8C8DFF5268 /* Pods_FERBase_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5A8AFE0B6A4EF5A1ADE70F7BD55CCAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C052BE5FF45123EF39D03BAA43697D /* Pods-FERBase_Example */,
+				70F75E298A150BB6708E8F2DFEBFBD7B /* Pods-FERBase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9BFED9E59930617011D96D4276FA536 /* FERBase */ = {
+			isa = PBXGroup;
+			children = (
+				6A7833A72109AD20006E2B24 /* Common */,
+				6529866818D08BFEC203DBC4DB3F405A /* Pod */,
+				1E115C06DEFB1A67A3DBE72ACE192E56 /* Support Files */,
+			);
+			name = FERBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F1C052BE5FF45123EF39D03BAA43697D /* Pods-FERBase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				496ED127E0C790B9D5A19462844CC9F6 /* Info.plist */,
+				614DF3645C81379161D954F1D3E8F85F /* Pods-FERBase_Example.modulemap */,
+				9F6D09DE21423C92B1FF93AC444679E3 /* Pods-FERBase_Example-acknowledgements.markdown */,
+				56F98BB000639F0441B66EDB06653AB2 /* Pods-FERBase_Example-acknowledgements.plist */,
+				BDD5AEEA9407D53CCBBEC72BC5083654 /* Pods-FERBase_Example-dummy.m */,
+				13AAFBBDD7FE428147DA92703127CCAA /* Pods-FERBase_Example-frameworks.sh */,
+				C9B3B3170BBBB233ED44C9E40BEABE7C /* Pods-FERBase_Example-resources.sh */,
+				4652AC4577AED29F5B31DA5DBA03799A /* Pods-FERBase_Example-umbrella.h */,
+				BE29582AE3B30A34931D129B3829A661 /* Pods-FERBase_Example.debug.xcconfig */,
+				A73CAAA07037642B47BD888ABA555454 /* Pods-FERBase_Example.release.xcconfig */,
+			);
+			name = "Pods-FERBase_Example";
+			path = "Target Support Files/Pods-FERBase_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A27A2F8B775394E6567142C0F129033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A9A53FB296EE1CE564494BE29BFFF /* Pods-FERBase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1713120E6C49BCCAA9CAB3F41B5820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BE56C5B19F68D641373BA64BEAA065 /* Pods-FERBase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1572F35DC5CA0D4759788D32AD161A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BE33070C5F7897A152AAFD2C899E9A /* FERBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6154435F4450CA2178DFD6DB292F00F7 /* FERBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C263AC26D265B64C6AAFC54B75000A /* Build configuration list for PBXNativeTarget "FERBase" */;
+			buildPhases = (
+				0525F5FD06298C2ADB9ECFF322A15F0F /* Sources */,
+				3B9379294895EA23C6AAAC434228C6E6 /* Frameworks */,
+				4A1572F35DC5CA0D4759788D32AD161A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FERBase;
+			productName = FERBase;
+			productReference = EAC562DAFAF2C7AEA529ED0273DC28AB /* FERBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80E3898FB0FC165B7A9F28064353993A /* Pods-FERBase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD459F0ECBADA56BDB2210142DF2354D /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */;
+			buildPhases = (
+				18D0CB0CF2C60AF295C1C683D15E830D /* Sources */,
+				1CE31A73329664BE2F3DE338ABCB2FAF /* Frameworks */,
+				2E1713120E6C49BCCAA9CAB3F41B5820 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FB1247C3EAA7578177098A318D7AD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FERBase_Example";
+			productName = "Pods-FERBase_Example";
+			productReference = 09CF6258BF785538BC35DFD708D12548 /* Pods_FERBase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5739D4853B1D85E7CCB99A7DE1E8939 /* Pods-FERBase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C3F322D2AEAD164D47B529F82D5743 /* Build configuration list for PBXNativeTarget "Pods-FERBase_Tests" */;
+			buildPhases = (
+				DB8BD6FA2FB0C030D71662D0335C330A /* Sources */,
+				0D249ABB600ACDC31036D71AB9417088 /* Frameworks */,
+				2A27A2F8B775394E6567142C0F129033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09B095BCCED7329310731AED44EDB1E /* PBXTargetDependency */,
+			);
+			name = "Pods-FERBase_Tests";
+			productName = "Pods-FERBase_Tests";
+			productReference = 5CD96AC7E4EE674790AC9F8C8DFF5268 /* Pods_FERBase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D2B83530980D7FD371C4CE4DD945BE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6154435F4450CA2178DFD6DB292F00F7 /* FERBase */,
+				80E3898FB0FC165B7A9F28064353993A /* Pods-FERBase_Example */,
+				A5739D4853B1D85E7CCB99A7DE1E8939 /* Pods-FERBase_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0525F5FD06298C2ADB9ECFF322A15F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6103A2B24ACEBE641ECD51039C1072F8 /* FERBase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0CB0CF2C60AF295C1C683D15E830D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590F49462AAE339FA6565D603B8AA94E /* Pods-FERBase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BD6FA2FB0C030D71662D0335C330A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285400B7E5620A4230674EC2B1DF432D /* Pods-FERBase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FB1247C3EAA7578177098A318D7AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FERBase;
+			target = 6154435F4450CA2178DFD6DB292F00F7 /* FERBase */;
+			targetProxy = B1CB01DB6932584DB37C50A3B25C754D /* PBXContainerItemProxy */;
+		};
+		B09B095BCCED7329310731AED44EDB1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FERBase_Example";
+			target = 80E3898FB0FC165B7A9F28064353993A /* Pods-FERBase_Example */;
+			targetProxy = 413662D68C1352570FE7FB1CEB34B300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2270EEAAF4EE57429EDF0B1B912D0ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE29582AE3B30A34931D129B3829A661 /* Pods-FERBase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E25FF0BEC5B0A094A72604C78FE36C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54D71533C9AB4632F8F5036EE09780E /* Pods-FERBase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Tests/Pods-FERBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36C0BFFE6813A79418185BC32A30CED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2182966A744EC417B74268DD4D6B86B1 /* FERBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FERBase/FERBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FERBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FERBase/FERBase.modulemap";
+				PRODUCT_MODULE_NAME = FERBase;
+				PRODUCT_NAME = FERBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50554216096C66CC0D7E2155E2B39500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2182966A744EC417B74268DD4D6B86B1 /* FERBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FERBase/FERBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FERBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FERBase/FERBase.modulemap";
+				PRODUCT_MODULE_NAME = FERBase;
+				PRODUCT_NAME = FERBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBD7342577B1EA87EB49F34C9B10E9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73CAAA07037642B47BD888ABA555454 /* Pods-FERBase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1A2F1D1B9ABFCAA6B929FABAFA07E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA91F1604A37882EF524B81E1685FD5 /* Pods-FERBase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Tests/Pods-FERBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C263AC26D265B64C6AAFC54B75000A /* Build configuration list for PBXNativeTarget "FERBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C0BFFE6813A79418185BC32A30CED6 /* Debug */,
+				50554216096C66CC0D7E2155E2B39500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD459F0ECBADA56BDB2210142DF2354D /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2270EEAAF4EE57429EDF0B1B912D0ADD /* Debug */,
+				CBD7342577B1EA87EB49F34C9B10E9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C3F322D2AEAD164D47B529F82D5743 /* Build configuration list for PBXNativeTarget "Pods-FERBase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A2F1D1B9ABFCAA6B929FABAFA07E9D /* Debug */,
+				2E25FF0BEC5B0A094A72604C78FE36C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

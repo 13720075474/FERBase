@@ -1,0 +1,22 @@
+{
+  "name": "FERBase",
+  "version": "0.1.0",
+  "summary": "A short description of FERBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/13720075474/FERBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13720075474": "853453714@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/13720075474/FERBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FERBase/Classes/**/*"
+}

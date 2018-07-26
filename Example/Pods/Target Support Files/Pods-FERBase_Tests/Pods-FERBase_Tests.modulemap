@@ -1,0 +1,6 @@
+framework module Pods_FERBase_Tests {
+  umbrella header "Pods-FERBase_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

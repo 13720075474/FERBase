@@ -1,0 +1,6 @@
+framework module FERBase {
+  umbrella header "FERBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
