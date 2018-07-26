@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FERBase_Example' do
+  pod 'FERBase', :path => '../'
+
+  target 'FERBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
